@@ -80,6 +80,24 @@
         "vol": 0.018547854445433158,
         "turnoverAnnual": 13.37663752363114
       }
+    },
+    {
+      "id": "transformer-alpha-spy-spy",
+      "name": "TRANSFORMER Alpha SPY",
+      "category": "Machine Learning",
+      "tags": [],
+      "description": "transformer strategy generated from quant_sim_platform backtest.",
+      "riskLevel": "Medium",
+      "market": "US ETF",
+      "symbol": "SPY",
+      "frequency": "Daily",
+      "metrics": {
+        "cagr": 0.005514190697182064,
+        "sharpe": 0.8387418088053333,
+        "maxDrawdown": -0.006162495108416599,
+        "vol": 0.006582196208533553,
+        "turnoverAnnual": 2.36110233956147
+      }
     }
   ]
 }
