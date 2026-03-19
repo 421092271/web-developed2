@@ -1,0 +1,85 @@
+{
+  "lastUpdated": "2026-03-19",
+  "strategies": [
+    {
+      "id": "ml-xgb-spy-v1",
+      "name": "XGB Alpha SPY",
+      "category": "Machine Learning",
+      "tags": [
+        "XGBoost",
+        "daily",
+        "single-asset"
+      ],
+      "description": "xgb strategy generated from quant_sim_platform backtest.",
+      "riskLevel": "Medium",
+      "market": "US ETF",
+      "symbol": "SPY",
+      "frequency": "Daily",
+      "metrics": {
+        "cagr": 0.007095160855504989,
+        "sharpe": 0.31538892990866335,
+        "maxDrawdown": -0.023112035630306837,
+        "vol": 0.023276373820561327,
+        "turnoverAnnual": 11.606439654345575
+      }
+    },
+    {
+      "id": "dl-transformer-spy-v1",
+      "name": "Transformer Alpha SPY",
+      "category": "深度学习",
+      "tags": [
+        "Transformer",
+        "时序",
+        "单标的"
+      ],
+      "description": "以滚动窗口序列建模市场状态，输出预期收益并映射到目标仓位。",
+      "riskLevel": "中高",
+      "market": "美股ETF",
+      "symbol": "SPY",
+      "frequency": "Daily",
+      "metrics": {
+        "cagr": 0.00011745266943319344,
+        "sharpe": 0.016888794646982553,
+        "maxDrawdown": -0.039260844641015424,
+        "vol": 0.02396574441598972,
+        "turnoverAnnual": 5.28816355747094
+      }
+    },
+    {
+      "id": "xgb-alpha",
+      "name": "XGB Alpha `",
+      "category": "Machine Learning",
+      "tags": [],
+      "description": "xgb strategy generated from quant_sim_platform backtest.",
+      "riskLevel": "Medium",
+      "market": "US ETF",
+      "symbol": "`",
+      "frequency": "Daily",
+      "metrics": {
+        "cagr": 0.007538863685840225,
+        "sharpe": 0.4142135398229289,
+        "maxDrawdown": -0.020201952859942196,
+        "vol": 0.018547854445433158,
+        "turnoverAnnual": 13.37663752363114
+      }
+    },
+    {
+      "id": "xgb-alpha-spy-spy",
+      "name": "XGB Alpha SPY",
+      "category": "Machine Learning",
+      "tags": [],
+      "description": "xgb strategy generated from quant_sim_platform backtest.",
+      "riskLevel": "Medium",
+      "market": "US ETF",
+      "symbol": "SPY",
+      "frequency": "Daily",
+      "metrics": {
+        "cagr": 0.007538863685840225,
+        "sharpe": 0.4142135398229289,
+        "maxDrawdown": -0.020201952859942196,
+        "vol": 0.018547854445433158,
+        "turnoverAnnual": 13.37663752363114
+      }
+    }
+  ]
+}
