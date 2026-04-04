@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
+import MarketDashboardView from "../views/Market/MarketDashboardView.vue";
 import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
 import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
@@ -28,6 +29,11 @@ const router = createRouter({
   routes: [
     {
       path: "/",
+      name: "market-dashboard",
+      component: MarketDashboardView,
+    },
+    {
+      path: "/presentation",
       name: "presentation",
       component: PresentationView,
     },
